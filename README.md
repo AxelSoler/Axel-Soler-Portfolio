@@ -2,6 +2,8 @@
 
 My second Mycroverse proyect: beggining of my portfolio
 
+page designed for mobiles
+
 Built With html and CSS
 
 Working a lot! 
