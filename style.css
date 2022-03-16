@@ -8,10 +8,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 10px;
 }
 
-h3 {
+#logo {
   color: aliceblue;
+  text-decoration: none;
 }
 
 .tools {
@@ -20,14 +22,12 @@ h3 {
 
 .description {
   font-size: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
   color: aliceblue;
   text-align: center;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   color: #7d73fc;
 }
 
