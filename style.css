@@ -50,12 +50,12 @@ h2 {
 }
 
 a {
-align-self: center;
+  align-self: center;
 }
 
 button {
-    max-width: fit-content;
-    margin-top: 15px;
-    background-color: #edecff;
-    padding: 10px;
+  width: fit-content;
+  margin-top: 15px;
+  background-color: #edecff;
+  padding: 10px;
 }
