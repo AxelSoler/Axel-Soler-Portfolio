@@ -43,6 +43,19 @@ h2 {
 }
 
 .links {
+  display: flex;
+  flex-direction: column;
   justify-self: flex-end;
   padding: 50px;
+}
+
+a {
+align-self: center;
+}
+
+button {
+    max-width: fit-content;
+    margin-top: 15px;
+    background-color: #edecff;
+    padding: 10px;
 }
