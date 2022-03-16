@@ -49,10 +49,26 @@ h2 {
   padding: 50px;
 }
 
-button {
+input#Axel {
   width: fit-content;
   align-self: center;
   margin-top: 15px;
   background-color: #edecff;
   padding: 10px;
+  color: blue;
+}
+
+input#Axel:hover {
+  background-color:#7d73fc;
+  color: #edecff;
+}
+
+input#Axel:disabled {
+  background-color: black;
+  color: #edecff;
+}
+
+input#Axel:active {
+  background-color: #5e42d7;
+  color: #edecff;
 }
