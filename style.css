@@ -3,17 +3,21 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-h3{
+
+h3 {
   color: aliceblue;
 }
+
 .tools {
   height: 15px;
 }
+
 .description {
   font-size: 30px;
   margin-left: 150px;
@@ -21,19 +25,23 @@ h3{
   color: aliceblue;
   text-align: center;
 }
+
 h1 {
   font-size: 50px;
-  color: #7D73FC;
+  color: #7d73fc;
 }
+
 h2 {
   font-size: 40px;
   color: white;
 }
+
 .headline {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .links {
   justify-self: flex-end;
   padding: 50px;
