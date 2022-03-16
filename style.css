@@ -49,12 +49,9 @@ h2 {
   padding: 50px;
 }
 
-a {
-  align-self: center;
-}
-
 button {
   width: fit-content;
+  align-self: center;
   margin-top: 15px;
   background-color: #edecff;
   padding: 10px;
