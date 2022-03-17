@@ -41,13 +41,13 @@ h2 {
 .headline {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
 .links {
   display: flex;
   flex-direction: column;
   justify-self: flex-end;
+  align-self: center;
   padding: 50px;
 }
 
@@ -78,7 +78,7 @@ input#Axel:active {
 .mySelf {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #language {
@@ -97,7 +97,8 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  list-style-type: none;
+  list-style: none;
+  padding: 0;
   color: #f5f5ff;
   height: 214.15px;
 }
