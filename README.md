@@ -2,7 +2,7 @@
 
 My second Mycroverse proyect: beggining of my portfolio
 
-Page designed for mobiles
+Page designed for mobiles based on template 4 of the given Figma designs
 
 Updated:
 I am using CSS grid and Flex in the web page 
