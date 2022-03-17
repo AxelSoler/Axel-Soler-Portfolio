@@ -56,12 +56,12 @@ button#project {
   margin-top: 15px;
   background-color: #7d73fc;
   padding: 10px;
-  color: #EDECFF;
+  color: #edecff;
 }
 
 button#project:hover {
   background-color: #7d73fc;
-  color: #ffffff;
+  color: #fff;
 }
 
 button#project:disabled {
@@ -116,13 +116,13 @@ li {
   align-self: center;
 }
 
-#post {
+.post {
   align-self: flex-start;
 }
 
-#postDescription {
+.postDescription {
   color: #dcdce8;
-  font-family: 'Inter';
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -142,5 +142,5 @@ li {
 
 .work {
   display: grid;
-  grid-template-rows: 1fr 3fr 3fr 3fr 3fr
+  grid-template-rows: 1fr 3fr 3fr 3fr 3fr;
 }
