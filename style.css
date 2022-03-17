@@ -139,3 +139,8 @@ li {
 #title {
   text-align: left;
 }
+
+.work {
+  display: grid;
+  grid-template-rows: 1fr 3fr 3fr 3fr 3fr
+}
