@@ -2,7 +2,11 @@
 
 My second Mycroverse proyect: beggining of my portfolio
 
-page designed for mobiles
+Page designed for mobiles
+
+Updated:
+I am using CSS grid and Flex in the web page 
+the is more description in the home page (title story, picture, description and button) 
 
 Built With html and CSS
 
