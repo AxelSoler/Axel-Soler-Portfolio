@@ -51,7 +51,7 @@ h2 {
   padding: 50px;
 }
 
-input#Axel {
+buttom#project {
   width: fit-content;
   align-self: center;
   margin-top: 15px;
@@ -60,17 +60,17 @@ input#Axel {
   color: blue;
 }
 
-input#Axel:hover {
+button#project:hover {
   background-color: #7d73fc;
   color: #edecff;
 }
 
-input#Axel:disabled {
+button#project:disabled {
   background-color: black;
   color: #edecff;
 }
 
-input#Axel:active {
+buttom#project:active {
   background-color: #5e42d7;
   color: #edecff;
 }
