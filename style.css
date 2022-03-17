@@ -51,28 +51,27 @@ h2 {
   padding: 50px;
 }
 
-buttom#project {
+button#project {
   width: fit-content;
-  align-self: center;
   margin-top: 15px;
-  background-color: #edecff;
+  background-color: #7d73fc;
   padding: 10px;
-  color: blue;
+  color: #EDECFF;
 }
 
 button#project:hover {
   background-color: #7d73fc;
-  color: #edecff;
+  color: #ffffff;
 }
 
 button#project:disabled {
   background-color: black;
-  color: #edecff;
+  color: #c8c8d4;
 }
 
-buttom#project:active {
+button#project:active {
   background-color: #5e42d7;
-  color: #edecff;
+  color: #eaeaf6;
 }
 
 .mySelf {
@@ -134,4 +133,8 @@ li {
   flex-direction: row;
   height: max-content;
   justify-content: space-around;
+}
+
+#title {
+  text-align: left;
 }
