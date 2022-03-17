@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(7, 7, 88);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#logo {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.tools {
+  height: 15px;
+}
+
+.description {
+  font-size: 30px;
+  color: aliceblue;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  color: #7d73fc;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+  padding: 50px;
+}
+
+input#Axel {
+  width: fit-content;
+  align-self: center;
+  margin-top: 15px;
+  background-color: #edecff;
+  padding: 10px;
+  color: blue;
+}
+
+input#Axel:hover {
+  background-color: #7d73fc;
+  color: #edecff;
+}
+
+input#Axel:disabled {
+  background-color: black;
+  color: #edecff;
+}
+
+input#Axel:active {
+  background-color: #5e42d7;
+  color: #edecff;
+}
