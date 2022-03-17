@@ -29,11 +29,11 @@ header {
 h1 {
   font-size: 60px;
   color: #7d73fc;
-  align-self: center;
+  text-align: center;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   color: white;
   align-self: center;
 }
@@ -103,6 +103,35 @@ ul {
   height: 214.15px;
 }
 
-li{
+li {
   margin-top: 7.74px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  align-self: center;
+}
+
+#post {
+  align-self: flex-start;
+}
+
+#postDescription {
+  color: #dcdce8;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.code {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  justify-content: space-around;
 }
