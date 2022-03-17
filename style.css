@@ -29,17 +29,19 @@ header {
 h1 {
   font-size: 60px;
   color: #7d73fc;
+  align-self: center;
 }
 
 h2 {
   font-size: 40px;
   color: white;
+  align-self: center;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .links {
@@ -71,4 +73,35 @@ input#Axel:disabled {
 input#Axel:active {
   background-color: #5e42d7;
   color: #edecff;
+}
+
+.mySelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#language {
+  color: #9490ff;
+}
+
+#frameworks {
+  color: #9490ff;
+}
+
+#skills {
+  color: #9490ff;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: none;
+  color: #f5f5ff;
+  height: 214.15px;
+}
+
+li{
+  margin-top: 7.74px;
 }
