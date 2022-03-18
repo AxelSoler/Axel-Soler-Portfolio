@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Roboto;
+  src: url(./Font/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./Font/Roboto/Roboto-Light.ttf);
+}
+
 body {
   background-color: rgb(7, 7, 88);
   display: flex;
@@ -14,7 +24,7 @@ header {
 #logo {
   color: aliceblue;
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Black';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -26,13 +36,16 @@ header {
 }
 
 .description {
-  font-size: 30px;
-  color: aliceblue;
+  color: #c8c8d4;
   text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 h1 {
-  font-size: 60px;
   color: #7d73fc;
   font-family: 'Roboto';
   font-style: normal;
@@ -47,6 +60,10 @@ h2 {
   font-size: 32px;
   color: white;
   align-self: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
 }
 
 .headline {
@@ -66,8 +83,13 @@ button.project {
   width: fit-content;
   margin-top: 15px;
   background-color: #7d73fc;
-  padding: 10px;
+  padding: 12px;
   color: #edecff;
+  width: 100px;
+  height: 48px;
+  margin-left: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
 }
 
 button.project:hover {
@@ -89,18 +111,38 @@ button.project:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 #language {
   color: #9490ff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 #frameworks {
   color: #9490ff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 #skills {
   color: #9490ff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 ul {
@@ -125,19 +167,32 @@ li {
 
 .picture {
   align-self: center;
+  position: static;
+  width: 327px;
+  height: 236px;
+  left: 0px;
+  top: 0px;
 }
 
 .post {
   align-self: flex-start;
+  font-family: 'Roboto';
+  font-style: normal;
+  position: static;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;  
+  margin-left: 24px;
 }
 
 .postDescription {
   color: #dcdce8;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  margin-left: 24px;
 }
 
 .code {
@@ -145,10 +200,21 @@ li {
   flex-direction: row;
   height: max-content;
   justify-content: space-around;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 #title {
   text-align: left;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  margin-left: 24px;
 }
 
 .work {
