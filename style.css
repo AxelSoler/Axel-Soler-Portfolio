@@ -23,16 +23,20 @@ header {
 
 #logo {
   color: aliceblue;
+  align-self: center;
   text-decoration: none;
   font-family: 'Roboto-Black';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
+  margin-left: 12px;
 }
 
 .tools {
-  height: 15px;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
 }
 
 .description {
@@ -43,6 +47,8 @@ header {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 h1 {
@@ -116,6 +122,8 @@ button.project:active {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 #language {
