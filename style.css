@@ -123,8 +123,8 @@ button.project:active {
 
 .mySelf {
   display: flex;
+  justify-items: left;
   flex-wrap: wrap;
-  justify-content: space-around;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -250,7 +250,15 @@ li.last {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   background-image: url(./images/background.png);
-  background-size: 375px;
+  background-size: 380px;
   background-repeat: no-repeat;
   background-position-y: 100px;
+}
+
+.mySelf li {
+  padding-left: 32px;
+}
+
+#change {
+  margin-left: 32px;
 }
