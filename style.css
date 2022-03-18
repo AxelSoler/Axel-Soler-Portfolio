@@ -77,6 +77,8 @@ h2 {
 .headline {
   display: flex;
   flex-direction: column;
+  background-image: url(./images/circles.png);
+  background-repeat: no-repeat;
 }
 
 .links {
@@ -235,5 +237,5 @@ li {
   background-image: url(./images/background.png);
   background-size: 375px;
   background-repeat: no-repeat;
-  background-position-y: 350px;
+  background-position-y: 100px;
 }
