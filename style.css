@@ -49,6 +49,8 @@ header {
   line-height: 28px;
   margin-left: 24px;
   margin-right: 24px;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 48px;
 }
 
 h1 {
@@ -123,6 +125,7 @@ button.project:active {
   line-height: 24px;
   margin-left: 24px;
   margin-right: 24px;
+  border-bottom: 1px solid #646369;
 }
 
 #language {
@@ -188,6 +191,7 @@ li {
   font-size: 32px;
   line-height: 44px;
   margin-left: 24px;
+  margin-top: 70px;
 }
 
 .postDescription {
@@ -220,13 +224,16 @@ li {
   font-size: 40px;
   line-height: 52px;
   margin-left: 24px;
+  margin-right: 24px;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 48px;
 }
 
 .work {
   display: grid;
-  grid-template-rows: 1fr 3fr 3fr 3fr 3fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   background-image: url(./images/background.png);
   background-size: 375px;
   background-repeat: no-repeat;
-  background-position-y: 350px ;
+  background-position-y: 350px;
 }
