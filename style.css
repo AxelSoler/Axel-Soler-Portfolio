@@ -216,12 +216,21 @@ li {
   display: flex;
   flex-direction: row;
   height: max-content;
-  justify-content: space-around;
+  justify-content: center;
   font-family: 'Inter-bold', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+}
+
+.code li {
+  border-right: 1px solid #555;
+  padding: 12px 24px 12px 24px;
+}
+
+li.last {
+  border-right: none;
 }
 
 #title {
