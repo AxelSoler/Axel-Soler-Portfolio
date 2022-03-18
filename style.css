@@ -125,7 +125,7 @@ button.project:active {
   display: flex;
   justify-items: left;
   flex-wrap: wrap;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -212,7 +212,7 @@ li {
 }
 
 .code {
-  color: #fff;
+  color: #f5f5ff;
   display: flex;
   flex-direction: row;
   height: max-content;
