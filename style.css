@@ -8,6 +8,11 @@
   src: url(./Font/Roboto/Roboto-Light.ttf);
 }
 
+@font-face {
+  font-family: Inter-bold;
+  src: url(./Font/Roboto/Roboto-Bold.ttf);
+}
+
 body {
   background-color: rgb(7, 7, 88);
   display: flex;
@@ -207,11 +212,12 @@ li {
 }
 
 .code {
+  color: #fff;
   display: flex;
   flex-direction: row;
   height: max-content;
   justify-content: space-around;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter-bold', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
