@@ -1,6 +1,6 @@
 @font-face {
   font-family: Roboto;
-  src: url(./Font/Roboto/Roboto-Black.ttf);
+  src: url(./Font/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
@@ -225,4 +225,8 @@ li {
 .work {
   display: grid;
   grid-template-rows: 1fr 3fr 3fr 3fr 3fr;
+  background-image: url(./images/background.png);
+  background-size: 375px;
+  background-repeat: no-repeat;
+  background-position-y: 350px ;
 }
