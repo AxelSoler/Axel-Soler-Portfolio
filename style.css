@@ -25,7 +25,7 @@ header {
   color: aliceblue;
   align-self: center;
   text-decoration: none;
-  font-family: 'Roboto-Black';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -86,7 +86,6 @@ h2 {
 }
 
 button.project {
-  width: fit-content;
   margin-top: 15px;
   background-color: #7d73fc;
   padding: 12px;
@@ -178,8 +177,6 @@ li {
   position: static;
   width: 327px;
   height: 236px;
-  left: 0px;
-  top: 0px;
 }
 
 .post {
@@ -189,7 +186,7 @@ li {
   position: static;
   font-weight: 500;
   font-size: 32px;
-  line-height: 44px;  
+  line-height: 44px;
   margin-left: 24px;
 }
 
