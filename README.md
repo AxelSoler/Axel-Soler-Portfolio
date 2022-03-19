@@ -2,7 +2,7 @@
 
 My second Mycroverse proyect: beggining of my portfolio
 
-page designed for mobiles
+Page designed for mobiles based on template 4 of the given Figma designs
 
 Built With html and CSS
 

@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Roboto;
+  src: url(./Font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./Font/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Inter-bold;
+  src: url(./Font/Roboto/Roboto-Bold.ttf);
+}
+
 body {
   background-color: rgb(7, 7, 88);
   display: flex;
@@ -13,62 +28,237 @@ header {
 
 #logo {
   color: aliceblue;
+  align-self: center;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  margin-left: 12px;
 }
 
 .tools {
-  height: 15px;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
 }
 
 .description {
-  font-size: 30px;
-  color: aliceblue;
+  color: #c8c8d4;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 48px;
 }
 
 h1 {
-  font-size: 60px;
   color: #7d73fc;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: 0.37px;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   color: white;
+  align-self: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
 }
 
 .headline {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-image: url(./images/circles.png);
+  background-repeat: no-repeat;
 }
 
 .links {
   display: flex;
   flex-direction: column;
   justify-self: flex-end;
+  align-self: center;
   padding: 50px;
 }
 
-input#Axel {
-  width: fit-content;
-  align-self: center;
+button.project {
   margin-top: 15px;
-  background-color: #edecff;
-  padding: 10px;
-  color: blue;
-}
-
-input#Axel:hover {
   background-color: #7d73fc;
+  padding: 12px;
   color: #edecff;
+  width: 100px;
+  height: 48px;
+  margin-left: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 
-input#Axel:disabled {
+button.project:hover {
+  background-color: #7d73fc;
+  color: #fff;
+}
+
+button.project:disabled {
   background-color: black;
-  color: #edecff;
+  color: #c8c8d4;
 }
 
-input#Axel:active {
+button.project:active {
   background-color: #5e42d7;
-  color: #edecff;
+  color: #eaeaf6;
+}
+
+.mySelf {
+  display: flex;
+  justify-items: left;
+  flex-wrap: wrap;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-bottom: 1px solid #646369;
+}
+
+#language {
+  color: #9490ff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+#frameworks {
+  color: #9490ff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+#skills {
+  color: #9490ff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  color: #f5f5ff;
+  height: 214.15px;
+}
+
+li {
+  margin-top: 7.74px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.picture {
+  align-self: center;
+  position: static;
+  width: 327px;
+  height: 236px;
+}
+
+.post {
+  align-self: flex-start;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  position: static;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  margin-left: 24px;
+  margin-top: 70px;
+}
+
+.postDescription {
+  color: #dcdce8;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 24px;
+}
+
+.code {
+  color: #f5f5ff;
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  justify-content: center;
+  font-family: 'Inter-bold', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.code li {
+  border-right: 1px solid #555;
+  padding: 12px 24px 12px 24px;
+}
+
+li.last {
+  border-right: none;
+}
+
+#title {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-bottom: 1px solid #646369;
+  padding-bottom: 48px;
+}
+
+.work {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-image: url(./images/background.png);
+  background-size: 380px;
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+}
+
+.mySelf li {
+  padding-left: 32px;
+}
+
+#change {
+  margin-left: 32px;
 }
