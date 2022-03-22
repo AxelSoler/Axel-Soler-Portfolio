@@ -83,6 +83,7 @@ h2 {
 .headline {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-image: url(./images/circles.png);
   background-repeat: no-repeat;
 }
@@ -310,6 +311,11 @@ fieldset {
   margin-left: 0;
 }
 
+.social-media {
+  height: 50px;
+  margin-top: 90px;
+}
+
 .social-media ul {
   display: flex;
   flex-direction: row;
@@ -317,19 +323,13 @@ fieldset {
   width: 200px;
   height: 40px;
   list-style: none;
-  margin-top: 87px 0 0 0;
   padding: 0;
-}
-
-.social-media li {
-  flex: 5;
 }
 
 .contact-email {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 17px;
   margin-bottom: 27;
   width: 327px;
   height: 29px;
