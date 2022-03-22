@@ -324,3 +324,19 @@ fieldset {
 .social-media li {
   flex: 5;
 }
+
+.contact-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 17px;
+  margin-bottom: 27;
+  width: 327px;
+  height: 29px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+}
