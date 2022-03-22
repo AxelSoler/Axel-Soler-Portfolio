@@ -262,3 +262,33 @@ li.last {
 #change {
   margin-left: 32px;
 }
+
+input {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #6b778c;
+  border: 0;
+  min-height: 18px;
+  width: 90%;
+  padding: 16px;
+  height: 16px;
+  margin-bottom: 12px;
+}
+
+textarea {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  border: 0;
+  height: 116px;
+  width: 90%;
+  padding: 16px;
+}
+
+fieldset {
+  border: 0;
+}
