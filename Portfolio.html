@@ -120,10 +120,17 @@
         </div>
     </section>
     <section class="contactForm">
-        <form action="">
-          <input type="text" placeholder="Text input">
-          <input type="email" placeholder="email@gmail.com">
-          <textarea name="user-comment" placeholder="enter text here"></textarea>
+        <form action="/login" method="post">
+            <fieldset>
+                <input type="text" name="user-name" placeholder="Text input" required maxlength="30">
+            </fieldset>
+            <fieldset>
+                <input type="email" name="user-email" placeholder="email@gmail.com" required>
+            </fieldset>
+            <fieldset>
+                <textarea name="user-comment" placeholder="enter text here" required maxlength="500"></textarea>
+            </fieldset>
+            <button class="project" type="submit">See Project</button>
         </form>
         
 
