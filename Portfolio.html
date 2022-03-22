@@ -120,7 +120,8 @@
         </div>
     </section>
     <section class="contactForm">
-        <form action="/login" method="post">
+        <div class="contactContainer">
+          <form action="/login" method="post">
             <fieldset>
                 <input type="text" name="user-name" placeholder="Text input" required maxlength="30">
             </fieldset>
@@ -130,10 +131,12 @@
             <fieldset>
                 <textarea name="user-comment" placeholder="Enter text here" required maxlength="500"></textarea>
             </fieldset>
-            <button class="submitButton" type="submit">See Project</button>
-        </form>
+            <div class="lastButton">
+                <button class="submitButton" type="submit">See Project</button>
+            </div>            
+          </form>
+        </div>
         
-
     </section>
     
 </body>

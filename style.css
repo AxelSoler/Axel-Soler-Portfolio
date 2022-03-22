@@ -272,12 +272,10 @@ input {
   color: #6b778c;
   border: 0;
   min-height: 18px;
-  width: 271px;
+  width: 283px;
   padding: 16px;
   height: 16px;
   margin-bottom: 12px;
-  margin-left: 12px;
-  margin-right: 12px;
 }
 
 textarea {
@@ -288,16 +286,26 @@ textarea {
   color: #091e42;
   border: 0;
   height: 116px;
-  width: 271px;
+  width: 283px;
   padding: 16px;
-  margin-left: 12px;
-  margin-right: 12px;
 }
 
 fieldset {
   border: 0;
 }
 
-.submitButton {
-  margin-left: 35%;
+.lastButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitButton{
+  margin-left: 0;
 }
