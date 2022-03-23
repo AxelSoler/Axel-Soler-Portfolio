@@ -17,7 +17,7 @@ body {
   background-color: rgb(7, 7, 88);
   display: flex;
   flex-direction: column;
-  width: 375px;
+  margin: 0%;
 }
 
 header {
@@ -85,6 +85,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   background-image: url(./images/circles.png);
+  background-size: 100% 52%;
   background-repeat: no-repeat;
 }
 
@@ -106,6 +107,7 @@ button {
   margin-left: 24px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  border: none;
 }
 
 button:hover {
@@ -254,7 +256,7 @@ li.last {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   background-image: url(./images/background.png);
-  background-size: 380px;
+  background-size: 100% 88%;
   background-repeat: no-repeat;
   background-position-y: 100px;
 }
@@ -308,6 +310,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 80px;
 }
 
 .submitButton {
