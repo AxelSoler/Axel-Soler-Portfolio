@@ -383,6 +383,11 @@ fieldset {
 }
 
 @media screen and (min-width: 768px) {
+  .headline {
+    background-image: none;
+
+  }
+
   h1 {
     color: #7d73fc;
     font-family: "Roboto", sans-serif;
