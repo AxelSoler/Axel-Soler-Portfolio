@@ -1,10 +1,49 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Axel-Soler-Portfolio
 
 My second Mycroverse proyect: beggining of my portfolio
 
 Page designed for mobiles based on template 4 of the given Figma designs
 
-Built With html and CSS
+## Built With
+
+- Major languages: HTML, CSS
+- Frameworks
+- Technologies used: GIT, Github, linters
+
+## Live Demo (if available)
+
+[Live Demo Link](https://livedemo.com)
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+* nodejs 12.x
+* npm - to install packages locally
+
+### Setup
+* git clone https://github.com/AxelSoler/Axel-Soler-Portfolio.git
+
+### Install
+* cd portfolio
+* npm install
+
+### Usage
+N/A 
+
+### Lint code
+* npm run webhint
+* npm run stylelint
+
+### Run tests
+N/A
+
+### Deployment
+N/A
 
 Working a lot! 
 
@@ -22,15 +61,22 @@ GitHub: @ONJoseph
 GitHub: @rbanos-mv
 
 
-🤝 Contributing Contributions, issues, and feature requests are welcome!
+## 🤝 Contributing
 
-Feel free to check the issues page.
+Contributions, issues, and feature requests are welcome!
 
-Show your support Give a ⭐️ if you like this project!
+Feel free to check the [issues page](../../issues/).
 
-Acknowledgments 
-Hat tip to anyone whose code was used 
-Inspiration 
-etc 
-📝 License 
-This project is MIT licensed.
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
