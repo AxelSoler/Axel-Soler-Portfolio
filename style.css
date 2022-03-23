@@ -134,6 +134,7 @@ button:active {
   line-height: 24px;
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 38px;
   border-bottom: 1px solid #646369;
 }
 
@@ -340,4 +341,24 @@ fieldset {
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
+}
+
+.headline
+.social-media {
+  margin-top: 0;
+}
+
+.contact__title {
+  font-size: 32px;
+}
+
+.contactContainer
+p {
+  font-size: 16px;
+  color: #f5f5ff;
+  text-align: center;
+}
+
+#workSection {
+  margin-top: 20px;
 }
