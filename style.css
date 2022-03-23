@@ -333,7 +333,7 @@ fieldset {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 27;
+  margin-bottom: 26;
   width: 327px;
   height: 29px;
   font-family: "Roboto", sans-serif;
@@ -344,8 +344,7 @@ fieldset {
   color: #ebebff;
 }
 
-.headline
-.social-media {
+.headline.social-media {
   margin-top: 0;
 }
 
@@ -359,8 +358,7 @@ fieldset {
   margin-bottom: 0;
 }
 
-.contactContainer
-p {
+.contactContainer p {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   color: #f5f5ff;
