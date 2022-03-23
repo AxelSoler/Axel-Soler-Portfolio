@@ -263,10 +263,7 @@ li.last {
 
 .mySelf li {
   padding-left: 32px;
-}
-
-#change {
-  margin-left: 32px;
+  padding-right: 32px;
 }
 
 input {
