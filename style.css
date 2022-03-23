@@ -279,6 +279,7 @@ input {
   padding: 16px;
   height: 16px;
   margin-bottom: 12px;
+  margin-right: 12px;
 }
 
 textarea {
@@ -350,13 +351,17 @@ fieldset {
 
 .contact__title {
   font-size: 32px;
+  margin-right: 24px;
+  margin-bottom: 0;
 }
 
 .contactContainer
 p {
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   color: #f5f5ff;
   text-align: center;
+  padding-right: 24px;
 }
 
 #workSection {
