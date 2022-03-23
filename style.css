@@ -448,4 +448,55 @@ fieldset {
     align-items: center;
     width: 100%;
   }
+
+  #title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 114px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 232px;
+    padding-bottom: 33px;
+  }
+
+  .work {
+    background-image: none;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .story {
+    display: flex;
+    flex-direction: row-reverse;  
+    margin-top: 96px;
+  }
+
+  .story:nth-child(odd) {
+    flex-direction: row;
+  }
+
+  .picture {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pictureDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .post {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .postDescription {
+    color: #dfe1e6;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 24px;
+  }
 }
