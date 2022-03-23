@@ -362,6 +362,7 @@ p {
   color: #f5f5ff;
   text-align: center;
   padding-right: 24px;
+  border-bottom: 0;
 }
 
 #workSection {
