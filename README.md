@@ -8,9 +8,19 @@ Built With html and CSS
 
 Working a lot! 
 
-Author 👤 Axel Soler
+Author1 👤 
 
 GitHub: @AxelSoler
+
+👤 Author2
+
+GitHub: @ONJoseph
+
+
+👤 Author3
+
+GitHub: @rbanos-mv
+
 
 🤝 Contributing Contributions, issues, and feature requests are welcome!
 
@@ -18,4 +28,9 @@ Feel free to check the issues page.
 
 Show your support Give a ⭐️ if you like this project!
 
-Acknowledgments Hat tip to anyone whose code was used Inspiration etc 📝 License This project is MIT licensed.
+Acknowledgments 
+Hat tip to anyone whose code was used 
+Inspiration 
+etc 
+📝 License 
+This project is MIT licensed.
