@@ -350,6 +350,10 @@ fieldset {
 }
 
 .contact__title {
+  color: #7d73fc;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   margin-right: 24px;
   margin-bottom: 0;
