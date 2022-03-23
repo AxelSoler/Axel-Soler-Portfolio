@@ -265,6 +265,7 @@ li.last {
   background-size: 100% 88%;
   background-repeat: no-repeat;
   background-position-y: 100px;
+  margin: 0px;
 }
 
 .mySelf li {
@@ -453,16 +454,16 @@ fieldset {
     font-weight: 500;
     font-size: 64px;
     line-height: 114px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
     margin-top: 232px;
     padding-bottom: 33px;
   }
 
   .work {
     background-image: none;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
   }
 
   .story {
@@ -475,8 +476,12 @@ fieldset {
     flex-direction: row;
   }
 
+  .story:nth-child(odd) .pictureDescription {
+    padding: 0%;
+  }
+
   .picture {
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
 
@@ -484,7 +489,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 60%;
   }
 
   .post {
@@ -495,8 +500,10 @@ fieldset {
 
   .postDescription {
     color: #dfe1e6;
-    font-size: 20px;
-    line-height: 28px;
-    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .code {
+    justify-content: flex-start;
+    margin-left: 1%;
   }
 }
