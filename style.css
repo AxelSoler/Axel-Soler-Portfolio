@@ -409,6 +409,18 @@ fieldset {
   .headline {
     background-image: url(./images/topCircles.png);
     background-position-y: 200px;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+    }
+  
+    to {
+      margin-right: 0%;
+    }
   }
 
   #logo1 {
