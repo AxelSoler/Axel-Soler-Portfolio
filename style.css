@@ -372,7 +372,7 @@ fieldset {
 }
 
 .contactContainer p {
-  font-family: 'Inter-bold', sans-serif;
+  font-family: "Inter-bold", sans-serif;
   font-size: 16px;
   color: #f5f5ff;
   text-align: center;
@@ -541,6 +541,20 @@ fieldset {
     transform: scale(1.1, 1.1);
   }
 
+  a:hover,
+  a:focus {
+    background-color: rgb(57, 127, 207);
+  }
+
+  h1 {
+    transition: all 0.5s ease-out;
+  }
+
+  h1:hover,
+  h1:focus {
+    background-color: rgb(246, 246, 246);
+  }
+
   .story:nth-child(1) .pictureDescription {
     justify-content: flex-end;
   }
@@ -655,7 +669,7 @@ fieldset {
     align-items: center;
     margin-left: 40%;
     width: 300px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     color: #fff;
     font-weight: 500;
