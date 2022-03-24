@@ -530,6 +530,15 @@ fieldset {
   .picture {
     width: 90%;
     height: 100%;
+    transition: all 0.7s ease-out;
+  }
+
+  .picture:hover {
+    transform: scale(1.05, 1.1);
+  }
+
+  button:hover {
+    transform: scale(1.1, 1.1);
   }
 
   .story:nth-child(1) .pictureDescription {
