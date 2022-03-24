@@ -8,21 +8,32 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <a id="logo" href="">My Logo</a>
+    <header class="header">
+      <div id="header1">
+        <a id="logo" href="">My Logo</a>
       <nav>
         <img class="tools" src="./images/Union.png" alt="hamburguer">
       </nav>
+    </div>
+    <div id="header2">
+      <a id="logo1" href="">My Logo</a>
+        <nav class="itemNavigation">
+          <a href="">Portfolio</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+          <a href=""><img src="./images/mail.png" alt="mail"></a>
+        </nav>
+    </div>
     </header>
 
     <section class="headline">
       <h1>Axel Soler</h1>
       <h2>Mycroverse Student</h2>
-      <p class="description">I can help you build a product , feature or website Look through some of my work and experience!
+      <section class="mySelf">
+        <p class="description">I can help you build a product , feature or website Look through some of my work and experience!
           If you like what you see and have a project you need coded,  don’t hesitate to contact me.
       </p>
-
-      <section class="mySelf">
+      <div class="lists">
         <ul>
           <li id="language">Language</li>
           <li>Javascript</li>
@@ -46,8 +57,127 @@
           <li>Gitlab</li>
           <li>terminal</li>
         </ul>
+      </div>
       </section>
-      
+      <div class="social-media">
+        <img class="workSection" id="firstWork" src="./images/work_right.png" alt="work">
+        <ul>
+          <li class="social">
+            <a href=""><img src="./images/Gato.png" alt="github" /></a>
+          </li>
+          <li class="social">
+            <a href="#"><img src="./images/Group.png" alt="linkedin" /></a>
+          </li>
+          <li class="social">
+            <a href="#"><img src="./images/Mano.png" alt="angellist" /></a>
+          </li>
+          <li class="social">
+            <a href=""><img src="./images/twitter.png" alt="twitter" /></a>
+          </li>          
+          <li class="social">
+            <a href="#"><img id="medium" src="./images/M.png" alt="medium" /></a>
+          </li>          
+        </ul>
+        <img class="workSection" id="secondWork" src="./images/work.2.png" alt="work">
+      </div>
+    </section>
+
+    <h1 id="title">MY RECENT WORK</h1>
+
+    <section class="work">  
+      <div class="story">
+          <img class="picture" src="./images/design.jpg" alt="img placeholder">
+          <div class="pictureDescription">
+          <h2 class="post">Multi-Post Stories</h2>
+          <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
+              has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a standard dummy text.</p>
+          <ul class="code">
+              <li>CSS</li>
+              <li>html</li>
+              <li>bootstrap</li>
+              <li class="last">ruby</li>
+          </ul>
+          <button class="project" type="button">See Project</button>
+        </div>
+      </div>
+
+      <div class="story">
+        <img class="picture" src="./images/design.jpg" alt="img placeholder">
+        <div class="pictureDescription">
+        <h2 class="post">Multi-Post Stories</h2>
+        <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a standard dummy text.</p>
+        <ul class="code">
+          <li>CSS</li>
+          <li>html</li>
+          <li>bootstrap</li>
+          <li class="last">ruby</li>
+        </ul>
+        <button class="project" type="button">See Project</button>
+      </div>
+      </div>
+
+      <div class="story">
+        <img class="picture" src="./images/design.jpg" alt="img placeholder">
+        <div class="pictureDescription">
+        <h2 class="post">Multi-Post Stories</h2>
+        <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a standard dummy text.</p>
+        <ul class="code">
+          <li>CSS</li>
+          <li>html</li>
+          <li>bootstrap</li>
+          <li class="last">ruby</li>
+        </ul>
+        <button class="project" type="button">See Project</button>
+      </div>
+      </div>
+
+      <div class="story">
+        <img class="picture" src="./images/design.jpg" alt="img placeholder">
+        <div class="pictureDescription">
+        <h2 class="post">Multi-Post Stories</h2>
+        <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a standard dummy text.</p>
+        <ul class="code">
+          <li>CSS</li>
+          <li>html</li>
+          <li>bootstrap</li>
+          <li class="last">ruby</li>
+        </ul>
+        <button class="project" type="button">See Project</button>
+      </div>
+      </div>
+    </section>
+
+    <section class="contactForm">
+      <div class="contactContainer">
+        <h2 class="contact__title">CONTACT US</h2>
+        <h2 class="contact__title1">Let’s chat!</h2>
+        <p class="description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
+        </p>
+        <form action="https://formspree.io/f/meqnzyke" method="post">
+          <fieldset>
+              <input type="text" name="user-name" placeholder="Text input" required maxlength="30">
+          </fieldset>
+          <fieldset>
+              <input type="email" name="user-email" placeholder="email@gmail.com" required>
+          </fieldset>
+          <fieldset>
+              <textarea name="user-comment" placeholder="Enter text here" required maxlength="500"></textarea>
+          </fieldset>
+          <div class="lastButton">
+              <button class="submitButton" type="submit">See Project</button>
+              <button class="submitButton" id="submitButton1" type="submit">Send</button>
+          </div>            
+        </form>
+      </div>
+    </section>
+    <div class="finalContact">
       <div class="social-media">
         <ul>
           <li class="social">
@@ -63,117 +193,11 @@
             <a href=""><img src="./images/twitter.png" alt="twitter" /></a>
           </li>          
           <li class="social">
-            <a href="#"><img src="./images/M.png" alt="medium" /></a>
-          </li>          
+            <a href="#"><img id="medium2" src="./images/M.png" alt="medium" /></a>
+          </li>   
         </ul>
       </div>
-      <img id="workSection" src="./images/work.2.png" alt="work">
-    </section>
-
-    <h1 id="title">MY RECENT WORK</h1>
-
-    <section class="work">  
-      <div class="story">
-          <img class="picture" src="./images/design.jpg" alt="img placeholder">
-          <h2 class="post">Multi-Post Stories</h2>
-          <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a standard dummy text.</p>
-          <ul class="code">
-              <li>CSS</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="last">ruby</li>
-          </ul>
-          <button class="project" type="button">See Project</button>
-      </div>
-
-      <div class="story">
-        <img class="picture" src="./images/design.jpg" alt="img placeholder">
-        <h2 class="post">Multi-Post Stories</h2>
-        <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
-            has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a standard dummy text.</p>
-        <ul class="code">
-          <li>CSS</li>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li class="last">ruby</li>
-        </ul>
-        <button class="project" type="button">See Project</button>
-      </div>
-
-      <div class="story">
-        <img class="picture" src="./images/design.jpg" alt="img placeholder">
-        <h2 class="post">Multi-Post Stories</h2>
-        <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
-            has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a standard dummy text.</p>
-        <ul class="code">
-          <li>CSS</li>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li class="last">ruby</li>
-        </ul>
-        <button class="project" type="button">See Project</button>
-      </div>
-
-      <div class="story">
-        <img class="picture" src="./images/design.jpg" alt="img placeholder">
-        <h2 class="post">Multi-Post Stories</h2>
-        <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
-            has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a standard dummy text.</p>
-        <ul class="code">
-          <li>CSS</li>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li class="last">ruby</li>
-        </ul>
-        <button class="project" type="button">See Project</button>
-      </div>
-    </section>
-    <section class="contactForm">
-      <div class="contactContainer">
-        <h2 class="contact__title">CONTACT US
-        </h2>
-        <p class="description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
-        </p>
-        <form action="https://formspree.io/f/meqnzyke" method="post">
-          <fieldset>
-              <input type="text" name="user-name" placeholder="Text input" required maxlength="30">
-          </fieldset>
-          <fieldset>
-              <input type="email" name="user-email" placeholder="email@gmail.com" required>
-          </fieldset>
-          <fieldset>
-              <textarea name="user-comment" placeholder="Enter text here" required maxlength="500"></textarea>
-          </fieldset>
-          <div class="lastButton">
-              <button class="submitButton" type="submit">See Project</button>
-          </div>            
-        </form>
-        <div class="social-media">
-          <ul>
-            <li class="social">
-              <a href=""><img src="./images/Gato.png" alt="github" /></a>
-            </li>
-            <li class="social">
-              <a href="#"><img src="./images/Group.png" alt="linkedin" /></a>
-            </li>
-            <li class="social">
-              <a href="#"><img src="./images/Mano.png" alt="angellist" /></a>
-            </li>
-            <li class="social">
-              <a href=""><img src="./images/twitter.png" alt="twitter" /></a>
-            </li>          
-            <li class="social">
-              <a href="#"><img src="./images/M.png" alt="medium" /></a>
-            </li>   
-          </ul>
-        </div>
-        <p class="contact-email">axelss369@gmail.com</p>
-      </div>
-    </section>
+      <p class="contact-email">axelss369@gmail.com</p>
+    </div>
   </body>
 </html>

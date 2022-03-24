@@ -20,11 +20,16 @@ body {
   margin: 0%;
 }
 
-header {
+.header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-top: 10px;
+}
+
+#header1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 #logo {
@@ -127,6 +132,7 @@ button:active {
 
 .mySelf {
   display: flex;
+  flex-direction: column;
   justify-items: left;
   flex-wrap: wrap;
   font-family: "Inter", sans-serif;
@@ -138,6 +144,11 @@ button:active {
   margin-right: 24px;
   margin-bottom: 38px;
   border-bottom: 1px solid #646369;
+}
+
+.lists {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #language {
@@ -214,6 +225,7 @@ li {
   font-size: 20px;
   line-height: 28px;
   margin-left: 24px;
+  margin-right: 24px;
 }
 
 .code {
@@ -263,10 +275,7 @@ li.last {
 
 .mySelf li {
   padding-left: 32px;
-}
-
-#change {
-  margin-left: 32px;
+  padding-right: 32px;
 }
 
 input {
@@ -312,10 +321,17 @@ fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 120px;
 }
 
 .submitButton {
   margin-left: 0;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .social-media ul {
@@ -332,7 +348,7 @@ fieldset {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 327px;
+  width: 100%;
   height: 29px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -352,19 +368,301 @@ fieldset {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  margin-right: 24px;
   margin-bottom: 0;
 }
 
 .contactContainer p {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter-bold', sans-serif;
   font-size: 16px;
   color: #f5f5ff;
   text-align: center;
-  padding-right: 24px;
   border-bottom: 0;
 }
 
-#workSection {
+.workSection {
   margin-top: 20px;
+}
+
+#firstWork {
+  display: none;
+}
+
+.contact__title1 {
+  display: none;
+}
+
+#submitButton1 {
+  display: none;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    background-image: url(./images/topCircles.png);
+    background-position-y: 200px;
+  }
+
+  #logo1 {
+    color: aliceblue;
+    align-self: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    margin-left: 12px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 105px;
+    margin: 120px 0% 0% 0%;
+  }
+
+  h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 47px;
+  }
+
+  .description {
+    margin-top: 80px;
+    border-bottom: 1px solid #646369;
+    padding-bottom: 48px;
+  }
+
+  .mySelf {
+    width: 448px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 38px;
+  }
+
+  #firstWork {
+    display: block;
+    margin-top: 1px;
+  }
+
+  #secondWork {
+    margin-top: 1px;
+  }
+
+  #language {
+    font-size: 18px;
+  }
+
+  #frameworks {
+    font-size: 18px;
+  }
+
+  #skills {
+    font-size: 18px;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  #medium {
+    margin-top: 2px;
+  }
+
+  #medium2 {
+    margin-top: 2px;
+  }
+
+  #title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 114px;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 232px;
+    padding-bottom: 33px;
+  }
+
+  .work {
+    background-image: none;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .story {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 96px;
+  }
+
+  .story:nth-child(odd) {
+    flex-direction: row;
+  }
+
+  .pictureDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 24px;
+    width: 60%;
+  }
+
+  .story:nth-child(odd) .pictureDescription {
+    padding: 0%;
+    margin-left: 24px;
+    margin-right: 1px;
+  }
+
+  .picture {
+    width: 90%;
+    height: 100%;
+  }
+
+  .story:nth-child(1) .pictureDescription {
+    justify-content: flex-end;
+  }
+
+  .post {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-top: 12px;
+    margin-left: 0%;
+  }
+
+  .postDescription {
+    color: #dfe1e6;
+    margin-right: 24px;
+    margin-left: 1px;
+  }
+
+  .code {
+    justify-content: flex-start;
+    margin-left: -12px;
+  }
+
+  .project {
+    margin-left: 0%;
+  }
+
+  .contact__title {
+    display: none;
+  }
+
+  .contact__title1 {
+    display: block;
+    color: #7d73fc;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 228px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+  .contactForm {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contactContainer {
+    max-width: 684px;
+  }
+
+  .contactContainer p {
+    font-size: 20px;
+    margin-bottom: 48px;
+  }
+
+  input {
+    width: 684px;
+  }
+
+  textarea {
+    width: 684px;
+  }
+
+  .submitButton {
+    display: none;
+  }
+
+  #submitButton1 {
+    display: block;
+    width: 160px;
+    font-size: 15px;
+    margin-top: 89px;
+  }
+
+  .finalContact {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #3a3837;
+  }
+
+  .contact-email {
+    margin-bottom: 1px;
+    left: 200px;
+    width: fit-content;
+  }
+
+  .finalContact .social-media {
+    width: fit-content;
+  }
+
+  .lastButton {
+    border: none;
+  }
+
+  #header1 {
+    display: none;
+  }
+
+  #header2 {
+    display: block;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .itemNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40%;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .itemNavigation a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  body {
+    background-image: url(./images/groupBackground.png);
+    background-position-y: 1500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }

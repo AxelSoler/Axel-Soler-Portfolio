@@ -4,7 +4,7 @@
 
 My second Mycroverse proyect: beggining of my portfolio
 
-Page designed for mobiles based on template 4 of the given Figma designs
+Page designed for mobiles and desktops now! Based on template 4 of the given Figma designs
 
 ## Built With
 
