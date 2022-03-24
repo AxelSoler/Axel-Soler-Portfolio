@@ -407,8 +407,8 @@ fieldset {
 
 @media screen and (min-width: 768px) {
   .headline {
-    background-image: none;
-
+    background-image: url(./images/topCircles.png);
+    background-position-y: 200px;
   }
 
   h1 {
@@ -440,6 +440,23 @@ fieldset {
 
   #firstWork {
     display: block;
+    margin-top: 0px;
+  }
+
+  #secondWork {
+    margin-top: 0px;
+  }
+
+  #language {
+    font-size: 18px;
+  }
+  
+  #frameworks {
+    font-size: 18px;
+  }
+  
+  #skills {
+    font-size: 18px;
   }
 
   .social-media {
@@ -448,6 +465,14 @@ fieldset {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+  }
+
+  #medium {
+    margin-top: 2px;
+  }
+
+  #medium2 {
+    margin-top: 2px;
   }
 
   #title {
@@ -478,6 +503,8 @@ fieldset {
 
   .story:nth-child(odd) .pictureDescription {
     padding: 0%;
+    margin-left: 24px;
+    margin-right: 0px;
   }
 
   .picture {
@@ -489,6 +516,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 24px;
     width: 60%;
   }
 
@@ -501,16 +529,23 @@ fieldset {
     font-size: 40px;
     line-height: 52px;
     margin-top: 12px;
+    margin-left: 0%;
   }
 
   .postDescription {
     color: #dfe1e6;
     margin-right: 24px;
-    max-width: 440px;
+    margin-left: 0%;
+    margin-right: 0%;
   }
+
   .code {
     justify-content: flex-start;
-    margin-left: 1%;
+    margin-left: -12px;
+  }
+
+  .project {
+    margin-left: 0%;
   }
 
   .contact__title {
@@ -611,5 +646,12 @@ fieldset {
   .itemNavigation a {
     text-decoration: none;
     color: #fff;
+  }
+
+  body {
+    background-image: url(./images/groupBackground.png);
+    background-position-y: 1500px;
+    background-repeat:no-repeat;
+    background-size: contain;
   }
 }
