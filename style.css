@@ -390,35 +390,19 @@ fieldset {
   }
 
   h1 {
-    color: #7d73fc;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 90px;
     line-height: 105px;
-    text-align: center;
-    letter-spacing: 0.37px;
     margin: 120px 0% 0% 0%;
   }
 
   h2 {
     font-size: 48px;
-    color: white;
-    align-self: center;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 500;
     line-height: 47px;
   }
 
   .description {
-    color: #b3bac5;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
     margin: 80px 0px 0px 0px;
     border-bottom: 1px solid #646369;
     padding-bottom: 48px;
@@ -426,11 +410,6 @@ fieldset {
 
   .mySelf {
     width: 448px;
-    display: flex;
-    justify-items: center;
-    flex-wrap: wrap;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -468,7 +447,7 @@ fieldset {
 
   .story {
     display: flex;
-    flex-direction: row-reverse;  
+    flex-direction: row-reverse;
     margin-top: 96px;
   }
 
@@ -492,15 +471,21 @@ fieldset {
     width: 60%;
   }
 
+  .story:nth-child(1) .pictureDescription {
+    justify-content: flex-end;
+  }
+
   .post {
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
+    margin-top: 12px;
   }
 
   .postDescription {
     color: #dfe1e6;
     margin-right: 24px;
+    max-width: 440px;
   }
   .code {
     justify-content: flex-start;
