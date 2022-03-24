@@ -387,6 +387,10 @@ fieldset {
   display: none;
 }
 
+#submitButton1 {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .headline {
     background-image: none;
@@ -418,7 +422,6 @@ fieldset {
     font-size: 15px;
     line-height: 24px;
     margin-bottom: 38px;
-    border-bottom: 1px solid #646369;
   }
 
   #firstWork {
@@ -532,5 +535,16 @@ fieldset {
 
   textarea {
     width: 684px;
+  }
+
+  .submitButton {
+    display: none;
+  }
+
+  #submitButton1 {
+    display: block;
+    width: 160px;
+    font-size: 15px;
+    margin-top: 89px;
   }
 }
