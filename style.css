@@ -270,7 +270,6 @@ li.last {
   background-size: 100% 88%;
   background-repeat: no-repeat;
   background-position-y: 100px;
-  margin: 0px;
 }
 
 .mySelf li {
@@ -411,6 +410,18 @@ fieldset {
     background-position-y: 200px;
   }
 
+  #logo1 {
+    color: aliceblue;
+    align-self: center;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    margin-left: 12px;
+  }
+
   h1 {
     font-weight: 700;
     font-size: 90px;
@@ -425,7 +436,7 @@ fieldset {
   }
 
   .description {
-    margin: 80px 0px 0px 0px;
+    margin-top: 80px;
     border-bottom: 1px solid #646369;
     padding-bottom: 48px;
   }
@@ -440,21 +451,21 @@ fieldset {
 
   #firstWork {
     display: block;
-    margin-top: 0px;
+    margin-top: 1px;
   }
 
   #secondWork {
-    margin-top: 0px;
+    margin-top: 1px;
   }
 
   #language {
     font-size: 18px;
   }
-  
+
   #frameworks {
     font-size: 18px;
   }
-  
+
   #skills {
     font-size: 18px;
   }
@@ -501,23 +512,23 @@ fieldset {
     flex-direction: row;
   }
 
-  .story:nth-child(odd) .pictureDescription {
-    padding: 0%;
-    margin-left: 24px;
-    margin-right: 0px;
-  }
-
-  .picture {
-    width: 90%;
-    height: 100%;
-  }
-
   .pictureDescription {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-right: 24px;
     width: 60%;
+  }
+
+  .story:nth-child(odd) .pictureDescription {
+    padding: 0%;
+    margin-left: 24px;
+    margin-right: 1px;
+  }
+
+  .picture {
+    width: 90%;
+    height: 100%;
   }
 
   .story:nth-child(1) .pictureDescription {
@@ -535,8 +546,8 @@ fieldset {
   .postDescription {
     color: #dfe1e6;
     margin-right: 24px;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 
   .code {
@@ -563,12 +574,12 @@ fieldset {
     margin-right: 24px;
     margin-bottom: 0;
   }
-  
+
   .contactForm {
     display: flex;
     justify-content: center;
   }
-  
+
   .contactContainer {
     max-width: 684px;
   }
@@ -604,7 +615,7 @@ fieldset {
   }
 
   .contact-email {
-    margin-bottom: 0px;
+    margin-bottom: 1px;
     left: 200px;
     width: fit-content;
   }
@@ -635,7 +646,7 @@ fieldset {
     align-items: center;
     margin-left: 40%;
     width: 300px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     color: #fff;
     font-weight: 500;
@@ -651,7 +662,7 @@ fieldset {
   body {
     background-image: url(./images/groupBackground.png);
     background-position-y: 1500px;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
   }
 }
