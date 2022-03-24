@@ -391,6 +391,12 @@ fieldset {
   display: none;
 }
 
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (min-width: 768px) {
   .headline {
     background-image: none;
@@ -546,5 +552,25 @@ fieldset {
     width: 160px;
     font-size: 15px;
     margin-top: 89px;
+  }
+
+  .finalContact {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #3a3837;
+  }
+
+  .contact-email {
+    margin-bottom: 0px;
+    left: 200px;
+    width: fit-content;
+  }
+
+  .social-media {
+    width: fit-content;
+  }
+
+  .lastButton {
+    border: none;
   }
 }
