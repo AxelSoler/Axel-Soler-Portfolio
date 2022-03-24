@@ -607,4 +607,9 @@ fieldset {
     font-size: 15px;
     line-height: 20px;
   }
+
+  .itemNavigation a {
+    text-decoration: none;
+    color: #fff;
+  }
 }
