@@ -383,6 +383,10 @@ fieldset {
   display: none;
 }
 
+.contact__title1 {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .headline {
     background-image: none;
@@ -490,5 +494,43 @@ fieldset {
   .code {
     justify-content: flex-start;
     margin-left: 1%;
+  }
+
+  .contact__title {
+    display: none;
+  }
+
+  .contact__title1 {
+    display: block;
+    color: #7d73fc;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 228px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  
+  .contactForm {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contactContainer {
+    max-width: 684px;
+  }
+
+  .contactContainer p {
+    font-size: 20px;
+    margin-bottom: 48px;
+  }
+
+  input {
+    width: 684px;
+  }
+
+  textarea {
+    width: 684px;
   }
 }
