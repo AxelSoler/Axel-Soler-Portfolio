@@ -581,4 +581,30 @@ fieldset {
   .lastButton {
     border: none;
   }
+
+  #header1 {
+    display: none;
+  }
+
+  #header2 {
+    display: block;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .itemNavigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40%;
+    width: 300px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
