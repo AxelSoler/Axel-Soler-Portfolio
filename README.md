@@ -12,9 +12,9 @@ Page designed for mobiles and desktops now! Based on template 4 of the given Fig
 - Frameworks
 - Technologies used: GIT, Github, linters
 
-## Live Demo (if available)
+## Live Demo (link to Portfolio webpage)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://axelsoler.github.io/Axel-Soler-Portfolio/)
 
 
 ## Getting Started
