@@ -85,6 +85,16 @@ h2 {
   line-height: 44px;
 }
 
+h3 {
+  font-size: 32px;
+  color: white;
+  align-self: center;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -250,7 +260,8 @@ li.last {
   border-right: none;
 }
 
-#title {
+.title {
+  color: #7d73fc;
   text-align: left;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -500,10 +511,12 @@ fieldset {
     margin-top: 2px;
   }
 
-  #title {
+  .title {
     font-weight: 500;
+    align-self: flex-start;
     font-size: 64px;
     line-height: 114px;
+    width: 86%;
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 232px;
