@@ -51,6 +51,8 @@ Author1 👤
 
 GitHub: @AxelSoler
 
+Partners: 
+
 👤 Author2
 
 GitHub: @ONJoseph
@@ -59,6 +61,10 @@ GitHub: @ONJoseph
 👤 Author3
 
 GitHub: @rbanos-mv
+
+👤 Author4
+
+GitHub: @jrosario19
 
 
 ## 🤝 Contributing
