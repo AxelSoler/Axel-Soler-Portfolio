@@ -95,6 +95,22 @@ body {
   color: #edecff;
 }
 
+.menu_section {
+   width: 85%; 
+   align-self: center; 
+  } 
+
+  #portfolioA { 
+    margin-top: 36px; 
+  } 
+  
+  .menu_section a{ 
+    display: flex;
+    justify-content: space-between; 
+    align-self: center; 
+    padding: 12px 24px; 
+  } 
+
 .arrow {
   height: 12px;
   width: 6px;
