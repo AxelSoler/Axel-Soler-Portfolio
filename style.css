@@ -103,8 +103,8 @@ body {
 #portfolioA {
   margin-top: 36px;
 }
-  
-.menu_section a{
+
+.menu_section a {
   display: flex;
   justify-content: space-between;
   align-self: center;

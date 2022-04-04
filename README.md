@@ -66,6 +66,10 @@ GitHub: @rbanos-mv
 
 GitHub: @jrosario19
 
+👤 Author5
+
+GitHub: @wayungi
+
 
 ## 🤝 Contributing
 
