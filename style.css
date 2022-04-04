@@ -24,9 +24,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   width: 100%;
   position: fixed;
+  background-color: rgb(7, 7, 88);
 }
 
 .header1 {
@@ -39,7 +41,7 @@ body {
   display: none;
 }
 
-.header2_activate {
+.header2.activate {
   display: block;
   background-color: rgb(7, 7, 88);
   background-image: url(./images/circles\ menu.png);
@@ -47,13 +49,19 @@ body {
   background-size: 100%;
   height: 800px;
   width: 100%;
+  margin-top: -10px;
 }
 
 .close_window {
   display: none;
+}
+
+.close_window.activate {
+  display: flex;
   position: absolute;
   top: 15px;
-  right: 25px;
+  right: 40px;
+  cursor: pointer;
 }
 
 .delete {
@@ -86,7 +94,7 @@ body {
   width: 6px;
 }
 
-#logo {
+.logo {
   color: aliceblue;
   align-self: center;
   text-decoration: none;
@@ -96,6 +104,10 @@ body {
   font-size: 18px;
   line-height: 16px;
   margin-left: 12px;
+}
+
+.logo.desactivate {
+  display: none;
 }
 
 .tools {
@@ -158,6 +170,7 @@ h3 {
   background-position-y: 10px;
   background-size: 100% 52%;
   background-repeat: no-repeat;
+  margin-top: 24px;
 }
 
 .links {
