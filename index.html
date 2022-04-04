@@ -9,23 +9,33 @@
   </head>
   <body>
     <header class="header">
-      <div id="header1">
-        <a id="logo" href="">My Logo</a>
-      <nav>
-        <img class="tools" src="./images/Union.png" alt="mobile menu">
-      </nav>
-    </div>
-    <div id="header2">
-      <a id="logo1" href="">My Logo</a>
+      <div class="header1">
+        <a class="logo" href="#">My Logo</a>
+        <nav>
+          <img class="tools" src="./images/Union.png" alt="mobile menu">
+        </nav>
+        <img class="close_window" src="./images/Close.png" alt="Close">
+      </div>
+    <div class="header2">
+      <a class="logo1" href="#">My Logo</a>
         <nav class="itemNavigation">
-          <a href="">Portfolio</a>
-          <a href="">About</a>
-          <a href="">Contact</a>
-          <a href=""><img src="./images/mail.png" alt="mail"></a>
+          <div class="menu_section">
+            <a id="portfolioA" href="#secondWork">Portfolio
+            <img class="arrow" src="./images/Arrow.png" alt="Arrow"></a>
+          </div>
+          <div class="menu_section">
+            <a href="#Axel">About
+            <img class="arrow" src="./images/Arrow.png" alt="Arrow"></a>
+          </div>
+          <div class="menu_section">
+            <a href="#Axel_mail">Contact
+            <img class="arrow" src="./images/Arrow.png" alt="Arrow"></a>
+          </div>
+          <a href="#Axel_mail" class="mail_picture"><img src="./images/mail.png" alt="mail"></a>
         </nav>
     </div>
     </header>
-
+    <div id="Axel"></div>
     <section class="headline">
       <h1>Axel Soler</h1>
       <h2>Mycroverse Student</h2>
@@ -158,6 +168,7 @@
       <div class="contactContainer">
         <h2 class="contact__title">CONTACT US</h2>
         <h2 class="contact__title1">Let’s chat!</h2>
+        <div id="Axel_mail"></div>
         <p class="description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
         </p>
         <form action="https://formspree.io/f/meqnzyke" method="post">
@@ -177,6 +188,7 @@
         </form>
       </div>
     </section>
+
     <div class="finalContact">
       <div class="social-media">
         <ul>
@@ -199,5 +211,6 @@
       </div>
       <p class="contact-email">axelss369@gmail.com</p>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
