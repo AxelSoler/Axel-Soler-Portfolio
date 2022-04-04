@@ -11,7 +11,7 @@ ham.addEventListener('click', () => {
   logo.classList.toggle('desactivate');
   logo2.classList.toggle('desactivate');
 });
-document.querySelectorAll('.menu_section').forEach(n => n.addEventListener('click', () => {
+document.querySelectorAll('.menu_section').forEach((n) => n.addEventListener('click', () => {
   header.classList.remove('activate');
   ham.classList.remove('desactivate');
   closeX.classList.remove('activate');
@@ -25,4 +25,4 @@ closeX.addEventListener('click', () => {
   closeX.classList.remove('activate');
   logo.classList.remove('desactivate');
   logo2.classList.remove('desactivate');
-}); 
+});
