@@ -66,7 +66,7 @@ body {
   cursor: pointer;
 }
 
-.mail_picture{
+.mail_picture {
   display: none;
 }
 
@@ -96,20 +96,20 @@ body {
 }
 
 .menu_section {
-   width: 85%; 
-   align-self: center; 
-  } 
+ width: 85%; 
+ align-self: center; 
+} 
 
-  #portfolioA { 
-    margin-top: 36px; 
-  } 
+#portfolioA { 
+  margin-top: 36px; 
+} 
   
-  .menu_section a{ 
-    display: flex;
-    justify-content: space-between; 
-    align-self: center; 
-    padding: 12px 24px; 
-  } 
+.menu_section a{ 
+  display: flex;
+  justify-content: space-between; 
+  align-self: center; 
+  padding: 12px 24px; 
+} 
 
 .arrow {
   height: 12px;
@@ -796,7 +796,6 @@ fieldset {
     text-decoration: none;
     color: #fff;
     align-self: center;
-    text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;

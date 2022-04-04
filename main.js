@@ -10,8 +10,7 @@ ham.addEventListener('click', () => {
   closeX.classList.toggle('activate');
   logo.classList.toggle('desactivate');
   logo2.classList.toggle('desactivate');
-}
-);
+});
 document.querySelectorAll('.menu_section').forEach(n => n.addEventListener('click', () => {
   header.classList.remove('activate');
   ham.classList.remove('desactivate');
@@ -20,10 +19,10 @@ document.querySelectorAll('.menu_section').forEach(n => n.addEventListener('clic
   logo2.classList.remove('desactivate');
 }));
 
-closeX.addEventListener('click', () => { 
-  header.classList.remove('activate'); 
-  ham.classList.remove('desactivate'); 
-  closeX.classList.remove('activate'); 
-  logo.classList.remove('desactivate'); 
-  logo2.classList.remove('desactivate'); 
+closeX.addEventListener('click', () => {
+  header.classList.remove('activate');
+  ham.classList.remove('desactivate');
+  closeX.classList.remove('activate');
+  logo.classList.remove('desactivate');
+  logo2.classList.remove('desactivate');
 }); 
