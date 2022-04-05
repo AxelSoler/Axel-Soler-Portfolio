@@ -83,71 +83,23 @@ const Stories = [
 },
 ];
 
-const workStory = document.querySelector('.work')
+const workStory = document.querySelector('.work');
+let lists = '';
 
-workStory.innerHTML = `
+Stories[0].technologies.forEach((technology) => {
+  lists += `<li>${technology}</li>`;
+});
+for (let i = 0; i < Stories.length; i += 1) {
+workStory.innerHTML += `
       <div class="story">
-          <img class="picture" src="./images/design.jpg" alt="image about my story"/>
+          <img class="picture" src=${Stories[0].featured_image} alt="image about my story"/>
           <div class="pictureDescription">
-          <h3 class="post">Multi-Post Stories</h3>
-          <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a standard dummy text.</p>
-          <ul class="code">
-              <li>CSS</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="last">ruby</li>
-          </ul>
-          <button class="project" type="button">See Project</button>
-        </div>
-      </div>
-      <div class="story">
-          <img class="picture" src="./images/design.jpg" alt="image about my story"/>
-          <div class="pictureDescription">
-          <h3 class="post">Multi-Post Stories</h3>
-          <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a standard dummy text.</p>
-          <ul class="code">
-              <li>CSS</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="last">ruby</li>
-          </ul>
-          <button class="project" type="button">See Project</button>
-        </div>
-      </div>
-      <div class="story">
-          <img class="picture" src="./images/design.jpg" alt="image about my story"/>
-          <div class="pictureDescription">
-          <h3 class="post">Multi-Post Stories</h3>
-          <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a standard dummy text.</p>
-          <ul class="code">
-              <li>CSS</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="last">ruby</li>
-          </ul>
-          <button class="project" type="button">See Project</button>
-        </div>
-      </div>
-      <div class="story">
-          <img class="picture" src="./images/design.jpg" alt="image about my story"/>
-          <div class="pictureDescription">
-          <h3 class="post">Multi-Post Stories</h3>
-          <p class="postDescription">A daily selection of privately personalized reads; no accounts or sign-ups required.
-              has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a standard dummy text.</p>
-          <ul class="code">
-              <li>CSS</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li class="last">ruby</li>
+          <h3 class="post">${Stories[0].name}</h3>
+          <p class="postDescription">${Stories[0].description}</p>
+          <ul class="code"> ${lists}
           </ul>
           <button class="project" type="button">See Project</button>
         </div>
       </div>
       `
+}
