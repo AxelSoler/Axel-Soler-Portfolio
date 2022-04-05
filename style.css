@@ -297,7 +297,6 @@ li {
 
 .picture {
   align-self: center;
-  position: static;
   width: 327px;
   height: 236px;
 }
@@ -497,6 +496,83 @@ fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.popupWindow {
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.16);
+  border: 1px solid #fff;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.popupWindow p {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.storyPop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.storyPop img {
+  width: 85%;
+}
+
+.storyPop button {
+  margin-left: 0;
+  margin-bottom: 20px;
+} 
+
+.popupSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#popupTitle {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#popupClose {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.buttonOrder1 {
+  width: 33%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonOrder1 img {
+  width: 20px;
+}
+
+.buttonOrder2 {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonOrder2 img {
+  width: 20px;
+}
+
+.storyPop li {
+  border-left: 1px solid #81818c;
 }
 
 @media screen and (min-width: 768px) {
