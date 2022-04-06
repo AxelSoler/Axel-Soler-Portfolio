@@ -110,7 +110,38 @@ workStory.innerHTML += `
         </div>
       </div>
       `
-}
-const boton = document.querySelector('.project');
-const dataB = boton.dataset.id
-console.log(botonB)
+};
+
+const modal = document.querySelector('.popupWindow');
+modal.innerHTML =`
+  <div class="storyPop">
+  <div class="popupSection">
+    <h3 id="popupTitle" class="post">Multi-Post Stories</h3>
+    <img id="popupClose" class="close_window" src="./images/Close.png" alt="Close">
+  </div>
+  <img class="picture" src="images/picturePopup.png" alt="image about my story"/>          
+  <p id="mobileDescription" class="postDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum
+    is simply dummy text of the printing and typesetting  ever since the 1500s,
+    when an unknown printer took a galley of type veris lapoa todoe.</p>
+  <p id="desktopDescription" class="postDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scrambled it 1960s 
+    with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    when an unknown printer took a galley of type and scramble.</p>   
+  <ul class="code">
+    <li>html</li>
+    <li>Ruby on Rails</li>
+    <li>CSS</li>
+    <li id="lastLiPopup">Github</li>
+  </ul>
+  <div class="buttonsPopup">
+  <button class="buttonOrder1" type="button">See Live<img src="./images/Icon.png" alt="link"></button>
+  <button class="buttonOrder2" type="button">See Source<img src="./images/Gato.png" alt="github"> </button>       
+  </div>
+</div>`
+;
