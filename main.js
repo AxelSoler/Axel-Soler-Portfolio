@@ -177,8 +177,7 @@ openModal.forEach((n) => n.addEventListener('click', () => {
   </div>`;
 }));
 
-function removePopup(){
-
+function removePopup() {
   bodyBlur.classList.remove('active');
   modal.classList.remove('active');
 }
