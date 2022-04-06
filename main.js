@@ -162,7 +162,7 @@ openModal.forEach((n) => n.addEventListener('click', () => {
   <div class="storyPop">
   <div class="popupSection">
     <h3 id="popupTitle" class="post">${stories[0].name}</h3>
-    <img id="popupClose" class="close_window" src="./images/Close.png" alt="Close">
+    <img id="popupClose" class="close_window" onclick="removePopup()" src="./images/Close.png" alt="Close">
   </div>
   <img class="picture" src=${stories[0].featured_image2} alt="image about my story"/>          
   <p id="mobileDescription" class="postDescription">${stories[0].mobileDescription}</p>
@@ -177,3 +177,11 @@ openModal.forEach((n) => n.addEventListener('click', () => {
 </div>`
 ;
 }));
+
+const closeModal = document.querySelector('#popupClose');
+
+function removePopup(){
+
+  bodyBlur.classList.remove('active')
+  modal.classList.remove('active')
+};
