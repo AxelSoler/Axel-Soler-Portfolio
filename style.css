@@ -22,7 +22,7 @@ body {
 
 .container.active {
   filter: blur(12px);
-  -webkit-filter: blur(8px)
+  -webkit-filter: blur(8px);
 }
 
 .header {
@@ -526,7 +526,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   margin-top: 54px;
-  align-items: center; 
+  align-items: center;
 }
 
 .popupWindow p {
@@ -549,7 +549,7 @@ fieldset {
 .storyPop button {
   margin-left: 0;
   margin-bottom: 20px;
-} 
+}
 
 .popupSection {
   width: 100%;
@@ -971,7 +971,7 @@ fieldset {
   }
 
   .storyPop img {
-    max-height: auto;
+    height: auto;
     max-width: 1108px;
   }
 
@@ -983,4 +983,3 @@ fieldset {
     margin-top: 36px;
   }
 }
-
