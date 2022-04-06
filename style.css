@@ -20,6 +20,11 @@ body {
   margin: 0%;
 }
 
+.container.active {
+  filter: blur(12px);
+  -webkit-filter: blur(8px)
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -299,6 +304,7 @@ li {
   align-self: center;
   width: 327px;
   height: 236px;
+  z-index: -2;
 }
 
 .post {
@@ -498,6 +504,20 @@ fieldset {
   align-items: center;
 }
 
+.modal {
+  display: none;
+}
+
+.modal.active {
+  position: fixed;
+  height: 1046px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+
 .popupWindow {
   align-self: center;
   background-color: rgba(255, 255, 255, 0.16);
@@ -505,6 +525,8 @@ fieldset {
   width: 90%;
   display: flex;
   flex-direction: column;
+  margin-top: 54px;
+  align-items: center; 
 }
 
 .popupWindow p {
