@@ -181,3 +181,5 @@ function removePopup() {
   bodyBlur.classList.remove('active');
   modal.classList.remove('active');
 }
+
+removePopup();
