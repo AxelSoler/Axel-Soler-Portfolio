@@ -550,7 +550,7 @@ fieldset {
 }
 
 .buttonOrder1 {
-  width: 33%;
+  width: 108px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -561,7 +561,7 @@ fieldset {
 }
 
 .buttonOrder2 {
-  width: 40%;
+  width: 124px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -573,6 +573,20 @@ fieldset {
 
 .storyPop li {
   border-left: 1px solid #81818c;
+}
+
+#lastLiPopup {
+  display: none;
+}
+
+#desktopDescription {
+  display: none;
+}
+
+.buttonsPopup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -893,5 +907,46 @@ fieldset {
 
   #portfolioA {
     margin-top: 0;
+  }
+
+  .popupWindow p {
+    width: 60%;
+    margin-top: 40px;
+  }
+
+  #mobileDescription {
+    display: none;
+  }
+
+  #desktopDescription {
+    display: block;
+  }
+
+  .buttonsPopup {
+    width: 310px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    margin-top: 30px;
+  }
+
+  .storyPop li {
+    margin-top: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  #popupTitle {
+    font-size: 40px;
+  }
+
+  .popupSection {
+    width: 85%;
+    justify-content: space-between;
+  }
+
+  #lastLiPopup {
+    display: block;
   }
 }
