@@ -49,8 +49,8 @@ const stories = [
       'CSS',
       'Github',
     ],
-    live: '#',
-    source: '#',
+    live: 'https://axelsoler.github.io/Axel-Soler-Portfolio/',
+    source: 'https://github.com/AxelSoler',
   },
   {
     name: 'Multi-Post Stories',
@@ -72,8 +72,8 @@ const stories = [
       'CSS',
       'Github',
     ],
-    live: '#',
-    source: '#',
+    live: 'https://axelsoler.github.io/Axel-Soler-Portfolio/',
+    source: 'https://github.com/AxelSoler',
   },
   {
     name: 'Multi-Post Stories',
@@ -95,8 +95,8 @@ const stories = [
       'CSS',
       'Github',
     ],
-    live: '#',
-    source: '#',
+    live: 'https://axelsoler.github.io/Axel-Soler-Portfolio/',
+    source: 'https://github.com/AxelSoler',
   },
   {
     name: 'Multi-Post Stories',
@@ -118,8 +118,8 @@ const stories = [
       'CSS',
       'Github',
     ],
-    live: '#',
-    source: '#',
+    live: 'https://axelsoler.github.io/Axel-Soler-Portfolio/',
+    source: 'https://github.com/AxelSoler',
   },
 ];
 
@@ -171,8 +171,8 @@ openModal.forEach((n) => n.addEventListener('click', () => {
   <ul class="code">${lists2}
   </ul>
   <div class="buttonsPopup">
-  <button class="buttonOrder1" type="button">See Live<img src="./images/Icon.png" alt="link"></button>
-  <button class="buttonOrder2" type="button">See Source<img src="./images/Gato.png" alt="github"> </button>       
+  <a href="${stories[0].live}"><button class="buttonOrder1" type="button">See Live<img src="./images/Icon.png" alt="link"></button></a>
+  <a href="${stories[0].source}"><button class="buttonOrder2" type="button">See Source<img src="./images/Gato.png" alt="github"> </button></a>
   </div>
   </div>
   </div>`;
