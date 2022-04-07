@@ -983,4 +983,8 @@ fieldset {
   .popupWindow {
     margin-top: 36px;
   }
+
+  .modal a:hover {
+    background: none;
+  }
 }
