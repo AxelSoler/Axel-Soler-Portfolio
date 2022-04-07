@@ -23,6 +23,7 @@ body {
 .container.active {
   filter: blur(12px);
   -webkit-filter: blur(8px);
+  position: fixed;
 }
 
 .header {
@@ -510,8 +511,9 @@ fieldset {
 
 .modal.active {
   position: fixed;
-  height: 1046px;
+  height: 90vh;
   width: 100%;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
