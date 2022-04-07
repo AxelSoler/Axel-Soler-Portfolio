@@ -203,8 +203,8 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-email.addEventListener('input', (e) => {
-  if (email.textContent == '') {
+email.addEventListener('input', () => {
+  if (email.textContent === '') {
     emailError.style.display = 'none';
   }
 });
