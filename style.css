@@ -612,7 +612,8 @@ fieldset {
   align-items: center;
 }
 
-#nameError.active {
+#nameError {
+  display: none;
   font-family: 'robot', sans-serif;
   color: #fff;
   font-size: 12px;

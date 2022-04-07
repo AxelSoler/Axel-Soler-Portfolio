@@ -196,7 +196,15 @@ form.addEventListener('submit', (e) => {
   if (!email.value.match(emailRegex)) {
     e.preventDefault();
     emailError.classList.add('active');
+    emailError.style.display = 'block';
   } else {
     emailError.classList.remove('active');
+    emailError.style.display = 'none';
+  }
+});
+
+email.addEventListener('input', (e) => {
+  if (email.textContent == '') {
+    emailError.style.display = 'none';
   }
 });
