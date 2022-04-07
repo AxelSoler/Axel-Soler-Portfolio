@@ -185,3 +185,26 @@ function removePopup() {
 }
 
 removePopup();
+
+const form = document.getElementById('formAction');
+const email = document.getElementById('email');
+const emailError = document.getElementById('nameError');
+
+form.addEventListener('submit', (e) => {
+  const emailRegex = new RegExp('[a-z0-9]+@[a-z]+[a-z]{2,3}');
+
+  if (!email.value.match(emailRegex)) {
+    e.preventDefault();
+    emailError.classList.add('active');
+    emailError.style.display = 'block';
+  } else {
+    emailError.classList.remove('active');
+    emailError.style.display = 'none';
+  }
+});
+
+email.addEventListener('input', () => {
+  if (email.textContent === '') {
+    emailError.style.display = 'none';
+  }
+});
