@@ -191,12 +191,12 @@ const email = document.getElementById('email');
 const emailError = document.getElementById('nameError');
 
 form.addEventListener('submit', (e) => {
-  let emailRegex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}')
+  const emailRegex = new RegExp('[a-z0-9]+@[a-z]+[a-z]{2,3}');
 
-  if(!email.value.match(emailRegex)){
-      e.preventDefault();
-      emailError.classList.add('active');
-  }else {
+  if (!email.value.match(emailRegex)) {
+    e.preventDefault();
+    emailError.classList.add('active');
+  } else {
     emailError.classList.remove('active');
   }
 });

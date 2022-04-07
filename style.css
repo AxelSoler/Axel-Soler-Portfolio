@@ -613,12 +613,12 @@ fieldset {
 }
 
 #nameError.active {
-  font-family: 'robot',sans-serif;
+  font-family: 'robot', sans-serif;
   color: #fff;
   font-size: 12px;
   width: 80%;
   margin-left: 10%;
-  background-color: rgba(255,0,0,0.4);
+  background-color: rgba(255, 0, 0, 0.4);
   align-self: center;
   padding: 25px 0;
   text-align: center;
