@@ -612,6 +612,20 @@ fieldset {
   align-items: center;
 }
 
+#nameError.active {
+  font-family: 'robot',sans-serif;
+  color: #fff;
+  font-size: 12px;
+  width: 80%;
+  margin-left: 10%;
+  background-color: rgba(255,0,0,0.4);
+  align-self: center;
+  padding: 25px 0;
+  text-align: center;
+  border: 1px solid #ff6163;
+  border-radius: 4px;
+}
+
 @media screen and (min-width: 768px) {
   .headline {
     background-image: url(./images/topCircles.png);
@@ -986,5 +1000,9 @@ fieldset {
 
   .modal a:hover {
     background: none;
+  }
+
+  #nameError.active {
+    font-size: 24px;
   }
 }
