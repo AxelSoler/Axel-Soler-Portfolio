@@ -155,6 +155,7 @@ const bodyBlur = document.querySelector('.container');
 const openModal = document.querySelectorAll('.project');
 
 openModal.forEach((n) => n.addEventListener('click', () => {
+  document.body.style.overflow = 'hidden';
   bodyBlur.classList.toggle('active');
   modal.classList.toggle('active');
   modal.innerHTML = `
@@ -178,6 +179,7 @@ openModal.forEach((n) => n.addEventListener('click', () => {
 }));
 
 function removePopup() {
+  document.body.style.overflow = '';
   bodyBlur.classList.remove('active');
   modal.classList.remove('active');
 }

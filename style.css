@@ -23,7 +23,6 @@ body {
 .container.active {
   filter: blur(12px);
   -webkit-filter: blur(8px);
-  position: fixed;
 }
 
 .header {
