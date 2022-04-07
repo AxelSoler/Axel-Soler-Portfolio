@@ -20,6 +20,11 @@ body {
   margin: 0%;
 }
 
+.container.active {
+  filter: blur(12px);
+  -webkit-filter: blur(8px);
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -297,9 +302,9 @@ li {
 
 .picture {
   align-self: center;
-  position: static;
   width: 327px;
   height: 236px;
+  z-index: -2;
 }
 
 .post {
@@ -494,6 +499,114 @@ fieldset {
 }
 
 .contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal {
+  display: none;
+}
+
+.modal.active {
+  position: fixed;
+  height: 90vh;
+  width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+
+.popupWindow {
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.16);
+  border: 1px solid #fff;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 54px;
+  align-items: center;
+}
+
+.popupWindow p {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.storyPop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.storyPop img {
+  width: 85%;
+}
+
+.storyPop button {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.popupSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#popupTitle {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#popupClose {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.buttonOrder1 {
+  width: 108px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonOrder1 img {
+  width: 20px;
+}
+
+.buttonOrder2 {
+  width: 124px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonOrder2 img {
+  width: 20px;
+}
+
+.storyPop li {
+  border-left: 1px solid #81818c;
+}
+
+.storyPop li:nth-child(4) {
+  display: none;
+}
+
+#desktopDescription {
+  display: none;
+}
+
+.buttonsPopup {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -817,5 +930,61 @@ fieldset {
 
   #portfolioA {
     margin-top: 0;
+  }
+
+  .popupWindow p {
+    width: 60%;
+    margin-top: 40px;
+  }
+
+  #mobileDescription {
+    display: none;
+  }
+
+  #desktopDescription {
+    display: block;
+  }
+
+  .buttonsPopup {
+    width: 310px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .storyPop li {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  #popupTitle {
+    font-size: 40px;
+  }
+
+  .popupSection {
+    width: 85%;
+    justify-content: space-between;
+  }
+
+  .storyPop li:nth-child(4) {
+    display: block;
+  }
+
+  .storyPop img {
+    height: auto;
+    max-width: 1108px;
+  }
+
+  .storyPop {
+    max-width: 1156px;
+  }
+
+  .popupWindow {
+    margin-top: 36px;
+  }
+
+  .modal a:hover {
+    background: none;
   }
 }
