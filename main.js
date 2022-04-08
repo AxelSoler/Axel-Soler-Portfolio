@@ -254,7 +254,9 @@ function setForm() {
     let userN = storedInput.userName;
     let userM = storedInput.userMail;
     let userT = storedInput.userText;
-    
+    document.getElementById('user-name').value = userN;
+    document.getElementById('email').value = userM;
+    document.getElementById('user-comment').value = userT;
   }
 };
 
