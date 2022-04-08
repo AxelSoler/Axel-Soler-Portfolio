@@ -208,3 +208,26 @@ email.addEventListener('input', () => {
     emailError.style.display = 'none';
   }
 });
+
+form.addEventListener('input', () => {
+  const forms = {
+    userName: document.getElementById('user-name').value,
+    userMail: document.getElementById('email').value,
+    userText: document.getElementById('user-comment').value,
+  };
+  localStorage.setItem('formsList', JSON.stringify(forms));
+});
+
+function setForm() {
+  const storedInput = JSON.parse(localStorage.getItem('formsList'));
+  if (storedInput) {
+    const userN = storedInput.userName;
+    const userM = storedInput.userMail;
+    const userT = storedInput.userText;
+    document.getElementById('user-name').value = userN;
+    document.getElementById('email').value = userM;
+    document.getElementById('user-comment').value = userT;
+  }
+}
+
+document.body.addEventListener('load', setForm());
