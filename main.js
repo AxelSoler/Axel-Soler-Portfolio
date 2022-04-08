@@ -260,3 +260,5 @@ function setForm() {
   }
 };
 
+document.body.addEventListener('load', setForm());
+
