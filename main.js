@@ -244,3 +244,11 @@ form.addEventListener('input', () => {
 localStorage.setItem('formsList',JSON.stringify(forms));
 });
 
+
+function setForm() {
+
+  const storedInput = JSON.parse(localStorage.getItem('formsList'));
+
+  
+};
+
