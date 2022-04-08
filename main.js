@@ -210,19 +210,17 @@ email.addEventListener('input', () => {
 });
 
 form.addEventListener('input', () => {
-
-  let forms = {
-  userName: document.getElementById('user-name').value,
-  userMail: document.getElementById('email').value,
-  userText: document.getElementById('user-comment').value,
-};
-localStorage.setItem('formsList',JSON.stringify(forms));
+  const forms = {
+    userName: document.getElementById('user-name').value,
+    userMail: document.getElementById('email').value,
+    userText: document.getElementById('user-comment').value,
+  };
+  localStorage.setItem('formsList', JSON.stringify(forms));
 });
 
 function setForm() {
   const storedInput = JSON.parse(localStorage.getItem('formsList'));
   if (storedInput) {
-
     const userN = storedInput.userName;
     const userM = storedInput.userMail;
     const userT = storedInput.userText;
