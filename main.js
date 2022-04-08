@@ -249,6 +249,12 @@ function setForm() {
 
   const storedInput = JSON.parse(localStorage.getItem('formsList'));
 
-  
+  if (storedInput) {
+
+    let userN = storedInput.userName;
+    let userM = storedInput.userMail;
+    let userT = storedInput.userText;
+    
+  }
 };
 
