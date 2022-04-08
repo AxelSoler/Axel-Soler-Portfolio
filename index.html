@@ -107,15 +107,15 @@
         <div id="Axel_mail"></div>
         <p class="description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
         </p>
-        <form id="formAction" action="https://formspree.io/f/meqnzyke" method="post">
+        <form id="formAction">
           <fieldset>
-              <input type="text" name="user-name" placeholder="Text input" required maxlength="30">
+              <input id="user-name" type="text" name="user-name" placeholder="Text input" required maxlength="30">
           </fieldset>
           <fieldset>
               <input id="email" type="email" name="user-email" placeholder="email@gmail.com" required>
           </fieldset>
           <fieldset>
-              <textarea name="user-comment" placeholder="Enter text here" required maxlength="500"></textarea>
+              <textarea id="user-comment" name="user-comment" placeholder="Enter text here" required maxlength="500"></textarea>
           </fieldset>
           <div id="nameError">Please insert the email in lower case</div>
           <div class="lastButton">

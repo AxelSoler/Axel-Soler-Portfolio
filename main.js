@@ -28,6 +28,31 @@ closeX.addEventListener('click', () => {
   logo2.classList.remove('desactivate');
 });
 
+function storageAvailable(type) {
+  var storage;
+  try {
+      storage = window[type];
+      var x = '__storage_test__';
+      storage.setItem(x, x);
+      storage.removeItem(x);
+      return true;
+  }
+  catch(e) {
+      return e instanceof DOMException && (
+          // everything except Firefox
+          e.code === 22 ||
+          // Firefox
+          e.code === 1014 ||
+          // test name field too, because code might not be present
+          // everything except Firefox
+          e.name === 'QuotaExceededError' ||
+          // Firefox
+          e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
+          // acknowledge QuotaExceededError only if there's something already stored
+          (storage && storage.length !== 0);
+  }
+}
+
 const stories = [
   {
     name: 'Multi-Post Stories',
@@ -208,3 +233,31 @@ email.addEventListener('input', () => {
     emailError.style.display = 'none';
   }
 });
+
+form.addEventListener('input', () => {
+
+  let forms = {
+  userName: document.getElementById('user-name').value,
+  userMail: document.getElementById('email').value,
+  userText: document.getElementById('user-comment').value,
+};
+localStorage.setItem('formsList',JSON.stringify(forms));
+});
+
+function setForm() {
+
+  const storedInput = JSON.parse(localStorage.getItem('formsList'));
+
+  if (storedInput) {
+
+    let userN = storedInput.userName;
+    let userM = storedInput.userMail;
+    let userT = storedInput.userText;
+    document.getElementById('user-name').value = userN;
+    document.getElementById('email').value = userM;
+    document.getElementById('user-comment').value = userT;
+  }
+};
+
+document.body.addEventListener('load', setForm());
+
