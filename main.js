@@ -30,18 +30,17 @@ closeX.addEventListener('click', () => {
 
 const stories = [
   {
-    name: 'Multi-Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    description2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.",
-    mobileDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.",
-    desktopDescription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
-    featured_image1: './images/design.jpg',
-    featured_image2: './images/picturePopup.png',
+    name: 'Mycroverse 2.0',
+    description: "First Microverse capstone project, I worked and learned a lot whit this project. technologies: HTML, CSS JavaScript. A page promoting my new course(that's the idea). Page design for multiple devices",
+    description2: "First Microverse capstone project, I worked and learned a lot whit this project. technologies: HTML, CSS JavaScript. A page promoting my new course(that's the idea). Page design for multiple devices",
+    mobileDescription: "First Microverse capstone project, I worked and learned a lot whit this project. technologies: HTML, CSS JavaScript. A page promoting my new course(that's the idea). Page design for multiple devices",
+    desktopDescription: "First Microverse capstone project, I worked and learned a lot whit this project. technologies: HTML, CSS JavaScript. A page promoting my new course(that's the idea). Page design for multiple devices",
+    featured_image1: './images/Mycroverse2.0.jpg',
+    featured_image2: './images/MycroverseAbout2.0.jpg',
     technologies: [
       'CSS',
       'html',
       'bootstrap',
-      'ruby',
     ],
     technologies2: [
       'html',
@@ -49,8 +48,8 @@ const stories = [
       'CSS',
       'Github',
     ],
-    live: 'https://axelsoler.github.io/Axel-Soler-Portfolio/',
-    source: 'https://github.com/AxelSoler',
+    live: 'https://axelsoler.github.io/HTML-CSS-JavaScript-capstone-project---Mycroverse-2.0/index.html',
+    source: 'https://github.com/AxelSoler/HTML-CSS-JavaScript-capstone-project---Mycroverse-2.0',
   },
   {
     name: 'Multi-Post Stories',

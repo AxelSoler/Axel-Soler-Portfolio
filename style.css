@@ -766,7 +766,7 @@ fieldset {
   }
 
   .picture {
-    width: 90%;
+    width: 60%;
     height: 100%;
     transition: all 0.7s ease-out;
   }
